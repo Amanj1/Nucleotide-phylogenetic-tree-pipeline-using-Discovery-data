@@ -1,0 +1,37 @@
+BEGIN MrBayes;
+	set autoclose=yes nowarn=yes;
+	log start filename=log.txt append;
+	lset nst=6 rates=invgamma;
+	mcmc ngen=500000 samplefreq=10 nchains=4;
+	sump;
+	sumt;
+END;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
